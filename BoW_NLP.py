@@ -23,7 +23,7 @@ def bag_of_words(text):
   
   return bag
 
-text = "this is a test to see if this test will work is is test a a"
+text = "This is a test to see if this test will work. This is test A."
 bag = bag_of_words(text)
 print(bag)
 print(vocab)
