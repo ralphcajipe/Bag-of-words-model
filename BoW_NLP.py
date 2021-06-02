@@ -1,7 +1,7 @@
 # Bag-of-words model in NLP
 
 vocab = {}  # maps word to integer representing it
-word_encoding = 0 # start at index 0
+word_encoding = 1 # start at index 1
 def bag_of_words(text):
   global word_encoding
 
@@ -32,9 +32,9 @@ print(bag)
 
 # OUTPUT
 # Vocabulary and their index number:
-# {'this': 0, 'is': 1, 'a': 2, 'test': 3, 'to': 4, 'see': 5, 'if': 6, 'will': 7, 'work.': 8, 'one': 9}
+# {'this': 1, 'is': 2, 'a': 3, 'test': 4, 'to': 5, 'see': 6, 'if': 7, 'will': 8, 'work.': 9, 'one': 10}
 
 # Frequency of words:
-# {0: 3, 1: 2, 2: 1, 3: 3, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1}
+# {1: 3, 2: 2, 3: 1, 4: 3, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1, 10: 1}
 
 # This isn't really the way we would do this in practice, but I hope it gives you an idea of how bag of words works. Notice that we've lost the order in which words appear.
