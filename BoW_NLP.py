@@ -58,3 +58,4 @@ Negative: {11: 1, 12: 1, 13: 1, 14: 1, 15: 2, 16: 1, 5: 1, 17: 1, 22: 1, 19: 1, 
 
 We can see that even though these sentences have a very different meaning they are encoded exaclty the same way. 
 Obviously, this isn't going to work well. We have to look at some other methods like "Integer Encoding".
+'''
