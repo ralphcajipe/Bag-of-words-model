@@ -23,7 +23,9 @@ def bag_of_words(text):
   
   return bag
 
-text = "This is a test to see if this test will work. This is test A."
+text = "This is a test to see if this test will work. This is test 1"
 bag = bag_of_words(text)
-print(bag)
+print("Vocabulary and their index number:")
 print(vocab)
+print("\nFrequency of words:")
+print(bag)
