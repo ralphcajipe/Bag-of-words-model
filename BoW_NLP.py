@@ -1,7 +1,7 @@
 # Bag-of-words model in NLP
 
 vocab = {}  # maps word to integer representing it
-word_encoding = 1
+word_encoding = 0 # start at index 0
 def bag_of_words(text):
   global word_encoding
 
