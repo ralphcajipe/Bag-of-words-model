@@ -23,7 +23,7 @@ def bag_of_words(text):
   
   return bag
 
-text = "This is a test to see if this test will work. This is test 1"
+text = "This is a test to see if this test will work. This is test one"
 bag = bag_of_words(text)
 print("Vocabulary and their index number:")
 print(vocab)
@@ -32,7 +32,9 @@ print(bag)
 
 # OUTPUT
 # Vocabulary and their index number:
-# {'this': 0, 'is': 1, 'a': 2, 'test': 3, 'to': 4, 'see': 5, 'if': 6, 'will': 7, 'work.': 8, '1': 9}
+# {'this': 0, 'is': 1, 'a': 2, 'test': 3, 'to': 4, 'see': 5, 'if': 6, 'will': 7, 'work.': 8, 'one': 9}
 
 # Frequency of words:
 # {0: 3, 1: 2, 2: 1, 3: 3, 4: 1, 5: 1, 6: 1, 7: 1, 8: 1, 9: 1}
+
+# This isn't really the way we would do this in practice, but I hope it gives you an idea of how bag of words works. Notice that we've lost the order in which words appear.
